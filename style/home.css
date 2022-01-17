@@ -1,0 +1,158 @@
+
+.container-1 {
+    background-color: white;
+    }
+    
+    .header {
+        width: 90%;
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+    
+    .judul-img img {
+        width: 25%;
+        height: auto;
+    }
+    
+    .bahasa {
+        display: flex;
+        overflow: hidden;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .bahasa ul {
+        display: flex;
+        list-style: none;
+        padding: 10px;
+    }
+    
+    
+    .bahasa li a {
+        text-decoration: none;
+        color: black;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    
+    .bahasa li a:hover {
+        background-color: #8A2BE2;
+        color: white;
+    }
+    
+    body {
+      width: 95%;
+      background-color: #f1f1f1;
+      font-family: 'Montserrat';
+      margin: 0 auto;
+    }
+    
+    table, td, th {
+      text-align: center;
+      background-color: white;
+      box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+    }
+    
+    .tabel {
+        width: 98%;
+        padding: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .tabel-komik, .tabel-chapter{
+        background-color: #f4f4f4;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 9px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .tabel-chapter{
+        margin-top: 60px;
+    }
+    
+    .tabel-komik h1{
+        text-align: center;
+        font-size: 40px;
+    }
+    
+    .tabel-int, tabel-ext{
+        padding-bottom: 20px;
+    }
+    
+    th{
+        background-color: #8a2be2;
+        color: white;
+        font-weight: 100rem;
+    }
+    
+    .btn-del{
+        background-color: rgb(224, 44, 44);
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-left: 6px;
+        padding-right: 6px;
+        border-radius: 9px;
+        color: white;
+        text-decoration: none;
+        transition: transform .2s;
+    }
+    
+    .btn-edt{
+        background-color: rgb(13, 110, 236);
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-left: 6px;
+        padding-right: 6px;
+        border-radius: 9px;
+        color: white;
+        text-decoration: none;
+        transition: transform .2s;
+    }
+    
+    .btn-del:hover{
+        background-color: rgb(243, 112, 112) ;
+        transform: scale(1.5);
+    }
+    
+    .btn-edt:hover{
+        background-color: rgb(94, 157, 240);
+        transform: scale(1.5);
+    }
+    
+    .tabel-chapter h1{
+        text-align: center;
+        font-size: 40px;
+    }
+    
+    .container-2 {
+        background-color: #8A2BE2;
+    }
+    
+    .nav {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        overflow: hidden;
+    }
+    
+    .nav ul {
+        display: flex;
+        list-style: none;
+        padding: 0 auto;
+    }
+    
+    .nav li a {
+        text-decoration: none;
+        color: white;
+        padding: 20px;
+    }
+    
+    .nav li a:hover {
+          background-color: #43095c;
+    }
+    

@@ -1,0 +1,244 @@
+/*CSS Reset*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* Body */
+
+body {
+	font-family: arial, san-serif;
+	background-color: #f1f1f1;
+}
+
+/* Header */
+
+.container-1 {
+	background-color: white;
+}
+
+.header {
+	width: 90%;
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-between;
+}
+
+.judul-img img {
+	width: 25%;
+	height: auto;
+}
+
+.search-engine {
+
+}
+
+.bahasa {
+	display: flex;
+	overflow: hidden;
+	align-items: center;
+	justify-content: center;
+}
+
+.bahasa ul {
+	display: flex;
+	list-style: none;
+	padding: 10px;
+}
+
+.bahasa li {
+
+}
+
+.bahasa li a {
+	text-decoration: none;
+	color: black;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.bahasa li a:hover {
+	background-color: #8A2BE2;
+	color: white;
+}
+
+
+/* Navigasi Bar */
+
+.container-2 {
+	background-color: #8A2BE2;
+}
+
+.nav {
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	overflow: hidden;
+}
+
+.nav ul {
+	display: flex;
+	list-style: none;
+	padding: 10px;
+}
+
+.nav li {
+
+}
+
+.nav li a {
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+}
+
+.nav li a:hover {
+  	background-color: #43095c;
+}
+
+/* Content */
+
+.row {
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+	margin: 10px auto;
+	overflow: hidden;
+}
+
+.left-col {
+	width: 77%;
+	overflow: hidden;
+	border-radius: 10px;
+	box-sizing: border-box;
+
+}
+
+.right-col {
+	width: 20%;
+	background-color: white;
+	overflow: hidden;
+	border-radius: 10px;
+	box-sizing: border-box;
+}
+
+.cards {
+	display: flex;
+	padding: 20px;
+	box-sizing: border-box;
+	background-color: white;
+}
+
+.card-1 {
+	height: auto;
+	width: auto;
+	box-sizing: border-box;
+	margin: 0;
+}
+
+.card-1 img {
+	width: 250px;
+	height: 400px;
+	box-sizing: border-box;
+}
+
+.card-2 {
+	width: auto;
+	text-align: left;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+.card-2 h1 {
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.card-2 p {
+	margin-top: 30px;
+	font-weight: 600;
+	font-size: 13px;
+	line-height: 1.5em;
+}
+
+h4 {
+	padding: 10px;
+	color: #8A2BE2;
+	text-transform: uppercase;
+	border-bottom: 1px solid #f1f1f1;
+	margin:0;
+	font-weight: 700;
+	font-size: 16.5px;
+}
+
+.right-col ul {
+	display: flex;
+	flex-direction: column-reverse;
+	margin: 10px 20px;
+}
+
+.right-col li a {
+	display: flex;
+	list-style-type: none;
+	text-decoration: none;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+	color: black;
+	border-bottom: 1px solid grey;
+}
+
+.right-col a:hover {
+	color: #8A2BE2;
+}
+
+/*.row .tag {
+  background: white;
+  border-radius: 10px;
+  padding: 3px 8px;
+  font-size: 14px;
+  margin-right: 4px;
+  line-height: 35px;
+  cursor: pointer;
+}*/
+
